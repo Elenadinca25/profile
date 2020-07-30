@@ -1,0 +1,101 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  background-color: black;
+  color: #575F7D;
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: grey;
+}
+
+h4 {
+  color: black;
+}
+
+button:hover {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  color: black;
+}
+
+i:hover {
+  background-color: red;
+}
+
+.card-white {
+  background-color: rgb(220, 220, 220);
+  padding: 50px;
+  box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 50px 70px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.img-circle {
+  width:160px;
+  height:160px;
+  border-radius:60%;
+  overflow:hidden;
+}
+
+.list-inline {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  padding-left: 0px;
+  margin: 0;
+  text-align: right;
+  color: black;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
