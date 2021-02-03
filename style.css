@@ -1,6 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
