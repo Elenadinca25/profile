@@ -5,10 +5,14 @@
 
 body {
     background: #F7F9FC;
-    color: #575F7D;
+    color: rgb(88, 96, 126);
     font-family: 'Lora', serif;
     font-size: 17px;
     font-weight: lighter;
+    /* background-image: url(https://images.unsplash.com/photo-1528988719300-046ff7faf8cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80); */
+    /* background-image: url(images/Oia.JPG); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Oia.JPG');
+    background-size: cover;
   }
  
   h1, h2, h3 {
@@ -16,20 +20,20 @@ body {
   }
 
   h1 {
-    color: #575F7D;
+    color: rgb(88, 96, 126);
     font-size: 32px;
     font-weight: 900;
   }
 
   h2 {
-    color: 01c5c4;
+    color: rgb(114, 64, 64);
     font-size: 20px;
     font-weight: lighter;
     font-weight: 500;
   }
   
   h3 {
-    color: c56183;
+    color: rgb(114, 64, 64);
     font-size: 20px;
     font-weight: 500;
   }
@@ -37,7 +41,8 @@ body {
   a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #6B72E1;
+    color: rgb(114, 64, 64);
+    /* opacity: 0.5; */
     font-weight: 600;
     font-size: 16px;
   }
@@ -61,19 +66,21 @@ body {
 
   .img-circle {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
   }
   .btn-blue {
-    background-color: #6B72E1;
-    color: white;
+    background-color: hsla(0, 68%, 30%, 0.557);
+    color: brown;
     padding: 15px 20px;
     border-radius: 4px;
+    transition: 1s;
   }
   .btn-blue:hover {
-    background-color: black;
+    background-color: #811818bb;
     color: white;
+    transition: 1s;
   }
   .list-inline {
     list-style: none;
@@ -86,10 +93,11 @@ body {
   }
   .list-inline i {
     font-size: 50px;
-    color: rgb(230, 230, 230);
+    color: hsla(0, 68%, 30%, 0.557);
   }
   .list-inline i:hover {
     color: black;
+    transition: 1s;
   }
   
   /* Design adjustments using id (1% design remaining) */
